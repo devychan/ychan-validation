@@ -1,0 +1,33 @@
+{
+  "name": "ychan-validation",
+  "version": "1.0.0",
+  "description": "A lightweight validation",
+  "main": "main.ts",
+  "scripts": {
+    "test": "jest",
+    "build" : "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itechto2019/ychan-validation.git"
+  },
+  "keywords": [
+    "ychan-validation"
+  ],
+  "author": "DEV YCHAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itechto2019/ychan-validation/issues"
+  },
+  "homepage": "https://github.com/itechto2019/ychan-validation#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
